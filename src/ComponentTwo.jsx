@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const ComponentTwo = () => {
   return (
-<h1> This is App #2</h1>
-  )
-}
+    <>
+      <h2> This is App #2 </h2>
+    </>
+  );
+};
 
-export default ComponentTwo
+export default ComponentTwo;
