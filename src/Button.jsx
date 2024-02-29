@@ -1,8 +1,8 @@
 import React from "react";
 
-const Button = () => {
+const Button = ({ inputText }) => {
   const press = () => {
-    alert("Hello Sador");
+    alert(`Hello, ${inputText}`);
   };
 
   return <button onClick={press}> Click Me </button>;
